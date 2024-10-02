@@ -1,0 +1,28 @@
+{
+    "name": "homework-helping-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd ./src && nodemon index.js",
+    "start": "cd ./src && nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-textract": "^3.614.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-fileupload": "^1.5.0",
+    "express-validator": "^7.1.0",
+    "form-data": "^4.0.0",
+    "nodemon": "^3.1.4",
+    "sharp": "^0.33.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.6.0"
+  }
+}
